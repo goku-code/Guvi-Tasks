@@ -1,0 +1,68 @@
+{
+    "basics": {
+      "name": "Gokulnath P",
+      "label": "Full stack developer",
+
+      "email": "gedu409@gmail.com",
+      "phone": "(912) 555-4321",
+      "summary": "Im a MCA graduate with passion in web development",
+      "location": {
+        "address": "vellore-632113",
+        "country":"India",
+        "countryCode": "IND"
+      },
+      "profiles": [{
+        "network": "linkedin",
+        "username": "Gokulnath P",
+        "url": "https://www.linkedin.com/in/gokulnath-p-79015825a/"
+      }]
+    },
+    "work": [{
+      "name": "TCS",
+      "position": "President",
+      "url": "https://company.com",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Started the company"
+      ]
+    }],
+    
+    "education": [{
+      "institution": "SRM University",
+      "url": "https://institution.com/",
+      "area": "Computer Application",
+      "studyType": "Master",
+      "startDate": "15-07-2021",
+      "endDate": "17-05-2023"
+    }],
+    "skills": [{
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "python"
+      ]
+    }],
+    "languages": [{
+      "language": "English",
+      "fluency": "Native speaker"
+    }],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }],
+    "projects": [{
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "url": "https://project.com/"
+    }]
+  }

@@ -1,0 +1,17 @@
+main{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+div{
+    padding:6px;
+    border:1px solid grey;
+    width: fit-content;
+    height: fit-content;
+    background-color: blanchedalmond;
+    color:grey
+}
+div:hover{
+    background-color:skyblue;
+    color: white;
+}
