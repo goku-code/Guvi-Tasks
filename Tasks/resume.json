@@ -7,7 +7,7 @@
       "phone": "(912) 555-4321",
       "summary": "Im a MCA graduate with passion in web development",
       "location": {
-        "address": "vellore-632113",
+        "address": "vellore",
         "country":"India",
         "countryCode": "IND"
       },
@@ -18,7 +18,7 @@
       }]
     },
     "work": [{
-      "name": "TCS",
+      "name": "Company",
       "position": "President",
       "url": "https://company.com",
       "startDate": "2013-01-01",
