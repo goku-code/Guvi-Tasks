@@ -1,3 +1,23 @@
+class Movie{//Created Movie Class
+  constructor(title,studio,rating="PG"){//constructor created
+    this.title=title;
+    this.studio=studio;
+    this.rating=rating;
+  }
+  getPG(movies) {
+    return movies.filter(movie => movie.rating === "PG");
+}}
+//Instances of Movie Class
+const casinoRoyale=new Movie("Casino Royale", "Eon Productions", "PG-13");
+const toyStory = new Movie("Toy Story", "Pixar", "PG");
+const findingNemo = new Movie("Finding Nemo", "Pixar", "PG");
+const theDarkKnight = new Movie("The Dark Knight", "Warner Bros", "PG-13");
+
+
+const movies = [casinoRoyale, toyStory, findingNemo, theDarkKnight];
+const pgMovies = Movie.getPG(movies);
+console.log(pgMovies);//to print an array of Movies where rating is PG
+
 class Person{//Created Person Class 
     constructor(FirstName,Lastname,idnumber){//constructor created 
          this.FirstName=FirstName;//this keyword points to current object
